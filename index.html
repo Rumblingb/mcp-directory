@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MCP Server Directory — Curated List of Model Context Protocol Servers</title>
+<meta name="description" content="The largest curated directory of MCP (Model Context Protocol) servers. Search and discover MCP servers for AI agents — court records, SEC filings, patents, web scraping, databases, and more.">
+<meta name="keywords" content="MCP servers, MCP directory, Model Context Protocol, MCP tools, AI agent tools, MCP server list, MCP marketplace">
+<meta property="og:title" content="MCP Server Directory">
+<meta property="og:description" content="Curated directory of MCP servers for AI agents. Find tools for court records, SEC data, patents, web scraping, and more.">
+<meta property="og:type" content="website">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0f; color: #e0e0e0; line-height: 1.6; }
+.container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-bottom: 1px solid #2a2a4a; padding: 40px 0; text-align: center; }
+header h1 { font-size: 2.5em; color: #fff; margin-bottom: 10px; }
+header h1 span { color: #4ade80; }
+header p { color: #a0a0b0; font-size: 1.1em; max-width: 600px; margin: 0 auto; }
+.search-box { margin: 30px auto; max-width: 500px; }
+.search-box input { width: 100%; padding: 15px 20px; border-radius: 12px; border: 1px solid #2a2a4a; background: #1a1a2e; color: #e0e0e0; font-size: 1em; outline: none; }
+.search-box input:focus { border-color: #4ade80; }
+.featured { margin: 40px 0; }
+.featured h2 { font-size: 1.5em; margin-bottom: 20px; color: #4ade80; }
+.featured-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.card { background: #1a1a2e; border: 1px solid #2a2a4a; border-radius: 12px; padding: 25px; transition: transform 0.2s, border-color 0.2s; }
+.card:hover { transform: translateY(-2px); border-color: #4ade80; }
+.card.featured { border-color: #4ade80; border-width: 2px; }
+.card h3 { font-size: 1.2em; margin-bottom: 8px; color: #fff; }
+.card .tag { display: inline-block; background: #2a2a4a; color: #4ade80; padding: 3px 10px; border-radius: 6px; font-size: 0.8em; margin-bottom: 10px; }
+.card p { color: #a0a0b0; font-size: 0.9em; margin-bottom: 15px; }
+.card .meta { font-size: 0.8em; color: #606080; margin-bottom: 15px; }
+.card .price { display: inline-block; background: #1a3a2e; color: #4ade80; padding: 4px 12px; border-radius: 6px; font-weight: bold; font-size: 0.9em; }
+.card .links { margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap; }
+.card .links a { text-decoration: none; padding: 6px 16px; border-radius: 8px; font-size: 0.85em; font-weight: 500; transition: opacity 0.2s; }
+.card .links a:hover { opacity: 0.8; }
+.btn-primary { background: #4ade80; color: #0a0a0f; }
+.btn-secondary { background: #2a2a4a; color: #e0e0e0; }
+.btn-stripe { background: #635bff; color: #fff; }
+.category { margin: 40px 0; }
+.category h2 { font-size: 1.3em; margin-bottom: 15px; color: #e0e0e0; border-bottom: 1px solid #2a2a4a; padding-bottom: 10px; }
+.category h2 span { color: #606080; font-weight: normal; font-size: 0.8em; }
+.list-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
+.list-card { background: #12121e; border: 1px solid #1e1e3a; border-radius: 10px; padding: 18px; transition: border-color 0.2s; }
+.list-card:hover { border-color: #4ade80; }
+.list-card h4 { font-size: 1em; color: #fff; margin-bottom: 5px; }
+.list-card .desc { color: #808090; font-size: 0.85em; margin-bottom: 10px; }
+.list-card .links a { color: #4ade80; font-size: 0.8em; text-decoration: none; }
+.list-card .links a:hover { text-decoration: underline; }
+footer { text-align: center; padding: 40px 0; color: #606080; font-size: 0.9em; border-top: 1px solid #1a1a2e; margin-top: 40px; }
+footer a { color: #4ade80; text-decoration: none; }
+@media (max-width: 600px) { header h1 { font-size: 1.8em; } .featured-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<header>
+<div class="container">
+<h1>✦ MCP <span>Server</span> Directory</h1>
+<p>The curated directory of Model Context Protocol servers — tools that give AI agents superpowers. Find, compare, and use MCP servers for any task.</p>
+<div class="search-box">
+<input type="text" id="search" placeholder="Search MCP servers..." onkeyup="filterServers()">
+</div>
+</div>
+</header>
+
+<div class="container">
+
+<!-- ⭐ FEATURED — AgentPay Pickaxes -->
+<section class="featured">
+<h2>⭐ Featured — Premium MCP Servers</h2>
+<div class="featured-grid">
+
+<div class="card featured">
+<div class="tag">Legal · Featured</div>
+<h3>Court Records MCP</h3>
+<p>Search 5M+ US federal and state court opinions, cases, and dockets. Full-text search, filters by court, date, and citation lookup.</p>
+<div class="meta">CourtListener API · 5M+ opinions · No auth required</div>
+<div class="price">$19/mo — Unlimited</div>
+<div class="links">
+<a href="https://github.com/Rumblingb/court-records-mcp" class="btn-secondary" target="_blank">GitHub</a>
+<a href="https://buy.stripe.com/dRm6oJ4Hd2Jugek0wz1oI0m" class="btn-stripe" target="_blank">Subscribe</a>
+</div>
+</div>
+
+<div class="card featured">
+<div class="tag">Financial · Featured</div>
+<h3>SEC Financial Data MCP</h3>
+<p>Access SEC EDGAR XBRL financial data — company facts, GAAP metrics, filing history, and financial statements for any public company.</p>
+<div class="meta">SEC EDGAR API · XBRL data · GAAP metrics</div>
+<div class="price">$19/mo — Unlimited</div>
+<div class="links">
+<a href="https://github.com/Rumblingb/sec-financial-mcp" class="btn-secondary" target="_blank">GitHub</a>
+<a href="https://buy.stripe.com/4gM6oJa1xck44vCenp1oI0p" class="btn-stripe" target="_blank">Subscribe</a>
+</div>
+</div>
+
+<div class="card featured">
+<div class="tag">Patent · Featured</div>
+<h3>Patent Search MCP</h3>
+<p>Search US patents by keyword, assignee, or classification. Access patent metadata, abstracts, inventors, and CPC codes via Google Patents.</p>
+<div class="meta">Google Patents API · No auth needed · CPC classification</div>
+<div class="price">$19/mo — Unlimited</div>
+<div class="links">
+<a href="https://github.com/Rumblingb/patent-search-mcp" class="btn-secondary" target="_blank">GitHub</a>
+<a href="https://buy.stripe.com/7sYeVf6Pl2Ju1jqdjl1oI0n" class="btn-stripe" target="_blank">Subscribe</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- CATEGORIES -->
+
+<section class="category" id="legal">
+<h2>⚖️ Legal & Court Records <span>(3 servers)</span></h2>
+<div class="list-grid">
+<div class="list-card"><h4>Court Records MCP</h4><div class="desc">Search US court opinions via CourtListener API. 5M+ records.</div><div class="links"><a href="https://github.com/Rumblingb/court-records-mcp" target="_blank">GitHub →</a></div></div>
+<div class="list-card"><h4>mcp-google-patents</h4><div class="desc">Search Google Patents for patent data. Free, open-source.</div><div class="links"><a href="https://smithery.ai/server/@alexgoller/mcp-google-patents" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>sec-filings-mcp-server</h4><div class="desc">Access SEC filings and financial data.</div><div class="links"><a href="https://smithery.ai/server/sec-filings-mcp-server" target="_blank">Smithery →</a></div></div>
+</div>
+</section>
+
+<section class="category" id="financial">
+<h2>💰 Financial Data <span>(4 servers)</span></h2>
+<div class="list-grid">
+<div class="list-card"><h4>SEC Financial Data MCP</h4><div class="desc">SEC EDGAR XBRL company facts, filings, GAAP metrics.</div><div class="links"><a href="https://github.com/Rumblingb/sec-financial-mcp" target="_blank">GitHub →</a></div></div>
+<div class="list-card"><h4>yfinance-mcp</h4><div class="desc">Stock market data via Yahoo Finance. Prices, fundamentals, options.</div><div class="links"><a href="https://smithery.ai/server/yfinance-mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>alpha-vantage-mcp</h4><div class="desc">Market data via Alpha Vantage API. Stocks, forex, crypto.</div><div class="links"><a href="https://smithery.ai/server/alpha-vantage-mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>financial-data-mcp-server</h4><div class="desc">General financial data aggregation.</div><div class="links"><a href="https://smithery.ai/server/financial-data-mcp-server" target="_blank">Smithery →</a></div></div>
+</div>
+</section>
+
+<section class="category" id="web-scraping">
+<h2>🕸️ Web Scraping & Search <span>(5 servers)</span></h2>
+<div class="list-grid">
+<div class="list-card"><h4>Firecrawl MCP</h4><div class="desc">Convert websites to markdown for LLM consumption.</div><div class="links"><a href="https://smithery.ai/server/@firecrawl/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Browserbase MCP</h4><div class="desc">Cloud browser automation for AI agents.</div><div class="links"><a href="https://smithery.ai/server/@browserbase/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Exa Search MCP</h4><div class="desc">AI-native web search with embeddings.</div><div class="links"><a href="https://smithery.ai/server/@exa/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Tavily Search MCP</h4><div class="desc">Web search optimized for AI agents.</div><div class="links"><a href="https://smithery.ai/server/@tavily/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Perplexity MCP</h4><div class="desc">AI answer engine with citations.</div><div class="links"><a href="https://smithery.ai/server/@perplexity/mcp" target="_blank">Smithery →</a></div></div>
+</div>
+</section>
+
+<section class="category" id="database">
+<h2>🗄️ Database & Storage <span>(4 servers)</span></h2>
+<div class="list-grid">
+<div class="list-card"><h4>PostgreSQL MCP</h4><div class="desc">Query PostgreSQL databases directly from AI agents.</div><div class="links"><a href="https://smithery.ai/server/@anthropic/mcp-postgres" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>SQLite MCP</h4><div class="desc">Query SQLite databases.</div><div class="links"><a href="https://smithery.ai/server/@anthropic/mcp-sqlite" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Supabase MCP</h4><div class="desc">Manage Supabase projects, queries, and storage.</div><div class="links"><a href="https://smithery.ai/server/@supabase/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Neon MCP</h4><div class="desc">Serverless PostgreSQL database management.</div><div class="links"><a href="https://smithery.ai/server/@neondatabase/mcp" target="_blank">Smithery →</a></div></div>
+</div>
+</section>
+
+<section class="category" id="developer-tools">
+<h2>🔧 Developer Tools <span>(6 servers)</span></h2>
+<div class="list-grid">
+<div class="list-card"><h4>GitHub MCP</h4><div class="desc">Manage repos, issues, PRs, and code reviews.</div><div class="links"><a href="https://smithery.ai/server/@github/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Stripe MCP</h4><div class="desc">Payment processing, products, subscriptions.</div><div class="links"><a href="https://smithery.ai/server/@stripe/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Docker MCP</h4><div class="desc">Container management from AI agents.</div><div class="links"><a href="https://smithery.ai/server/@docker/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Figma MCP</h4><div class="desc">Access Figma designs and components.</div><div class="links"><a href="https://smithery.ai/server/@figma/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Cloudflare MCP</h4><div class="desc">Manage Cloudflare workers, KV, and DNS.</div><div class="links"><a href="https://smithery.ai/server/@cloudflare/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Vercel MCP</h4><div class="desc">Deploy and manage Vercel projects.</div><div class="links"><a href="https://smithery.ai/server/@vercel/mcp" target="_blank">Smithery →</a></div></div>
+</div>
+</section>
+
+<section class="category" id="communication">
+<h2>📧 Communication <span>(4 servers)</span></h2>
+<div class="list-grid">
+<div class="list-card"><h4>Gmail MCP</h4><div class="desc">Send, read, and search Gmail messages.</div><div class="links"><a href="https://smithery.ai/server/@gmail/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Slack MCP</h4><div class="desc">Send messages, create channels, manage Slack.</div><div class="links"><a href="https://smithery.ai/server/@slack/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Discord MCP</h4><div class="desc">Interact with Discord servers and channels.</div><div class="links"><a href="https://smithery.ai/server/@discord/mcp" target="_blank">Smithery →</a></div></div>
+</div>
+</section>
+
+<section class="category" id="ai-ml">
+<h2>🤖 AI & Machine Learning <span>(3 servers)</span></h2>
+<div class="list-grid">
+<div class="list-card"><h4>OpenAI MCP</h4><div class="desc">Access OpenAI models and assistants.</div><div class="links"><a href="https://smithery.ai/server/@openai/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Anthropic MCP</h4><div class="desc">Access Claude models via MCP.</div><div class="links"><a href="https://smithery.ai/server/@anthropic/mcp" target="_blank">Smithery →</a></div></div>
+<div class="list-card"><h4>Hugging Face MCP</h4><div class="desc">Explore and use Hugging Face models.</div><div class="links"><a href="https://smithery.ai/server/@huggingface/mcp" target="_blank">Smithery →</a></div></div>
+</div>
+</section>
+
+<!-- Stats Counter -->
+<section style="text-align:center;padding:30px;background:#1a1a2e;border-radius:12px;margin:40px 0;border:1px solid #2a2a4a;">
+<p style="font-size:1.5em;font-weight:bold;color:#fff;">29 MCP Servers Listed</p>
+<p style="color:#a0a0b0;">Updated daily. Last update: May 10, 2026</p>
+<p style="margin-top:15px;color:#606080;font-size:0.9em;">📩 Submit your MCP server: <a href="mailto:jackpost1388@wshu.net" style="color:#4ade80;">jackpost1388@wshu.net</a></p>
+</section>
+
+</div>
+
+<footer>
+<div class="container">
+<p>MCP Server Directory — a <a href="https://rumblingb.github.io/jacks-toolbox/">Jack's Toolbox</a> project</p>
+<p style="margin-top:5px;">Built with ❤️ for the AI agent ecosystem. Not affiliated with Anthropic or the MCP specification.</p>
+</div>
+</footer>
+
+<script>
+function filterServers() {
+  const input = document.getElementById('search').value.toLowerCase();
+  const cards = document.querySelectorAll('.list-card, .card');
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    card.style.display = text.includes(input) ? '' : 'none';
+  });
+}
+</script>
+
+</body>
+</html>
